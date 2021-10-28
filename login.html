@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login Form</title>
+	<style>
+		#outer
+		{
+			height: 200px;
+			width: 500px;
+			background: aqua;
+			border: 2px solid black;
+			border-radius: 5px;
+			margin-top: 50px;
+
+		}
+		hr
+		{
+			width: 150px;
+			height: 2px;
+			background: black;
+		}
+		#txt1
+		{
+			height: 25px;
+			width: 250px;
+			border: none;
+			border-radius: 5px;
+			margin-top: 5px;
+		}
+		#txt2
+		{
+			height: 25px;
+			width: 100px;
+			background: black;
+			color: white;
+			font-size: 16px;
+			border-radius: 5px;
+		}
+		@keyframes shubham
+		{
+			10%
+			{
+				background: red;
+			}
+			20%
+			{
+				background: yellow;
+			}
+			30%
+			{
+				background: skyblue;
+			}
+			40%
+			{
+				background: seagreen;
+			}
+
+			50%
+			{
+				background: black;
+			}
+			60%
+			{
+				background: pink;
+			}
+			70%
+			{
+				background: lightsalmon;
+			}
+			80%
+			{
+				background: blueviolet;
+			}
+			90%
+			{
+				background: orange;
+			}
+			100%
+			{
+				background: gray;
+			}
+		}
+		body
+		{
+			animation-name: shubham;
+			animation-iteration-count: infinite;
+			animation-duration: 20s;
+    animation-direction: alternate;
+    
+		}
+		marquee
+		{
+			font-size: 35px;
+
+		}
+		#outer:hover
+		{
+			transform: scale(1.1);
+			border-radius: 12px;
+		}
+	</style>
+</head>
+<body bgcolor="white">
+	<center>
+		<marquee onmouseleave="start()" onmouseover="stop()" behavior="alternate">Simple Login form Using HTML & CSS ..?</marquee>
+<div id="outer">
+	<h1>Login </h1>
+	<hr>
+	<table>
+		<tr>
+			<td>Email-Id :</td>
+			<td><input id="txt1" type="text" name=""/></td>
+		</tr>
+		<tr>
+			<td>Password :</td><td><input type="password" id="txt1" name=""></td>
+		</tr>
+	</table>
+	<button id="txt2" style="background: black;"><a style="background: black;color: white;" href="LoginForm.html">Submit</a></button>
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<xmp>
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login Form</title>
+	<style>
+		#outer
+		{
+			height: 400px;
+			width: 500px;
+			background: aqua;
+			border: 2px solid black;
+			border-radius: 5px;
+			margin-top: 50px;
+
+		}
+		hr
+		{
+			width: 150px;
+			height: 2px;
+			background: black;
+		}
+		#txt1
+		{
+			height: 25px;
+			width: 250px;
+			border: none;
+			border-radius: 5px;
+			margin-top: 5px;
+		}
+		#txt2
+		{
+			height: 25px;
+			width: 100px;
+			background:white;
+
+			color: black;
+			text-decoration: none;
+			font-size: 16px;
+			border-radius: 5px;
+		}
+		@keyframes shubham
+		{
+			10%
+			{
+				background: red;
+			}
+			20%
+			{
+				background: yellow;
+			}
+			30%
+			{
+				background: skyblue;
+			}
+			40%
+			{
+				background: seagreen;
+			}
+
+			50%
+			{
+				background: black;
+			}
+			60%
+			{
+				background: pink;
+			}
+			70%
+			{
+				background: lightsalmon;
+			}
+			80%
+			{
+				background: blueviolet;
+			}
+			90%
+			{
+				background: orange;
+			}
+			100%
+			{
+				background: gray;
+			}
+		}
+		body
+		{
+			animation-name: shubham;
+			animation-iteration-count: infinite;
+			animation-duration: 10s;
+    animation-direction: alternate;
+    
+		}
+		marquee
+		{
+			font-size: 35px;
+			
+		}
+		#outer:hover
+		{
+			transform: scale(1.1);
+			border-radius: 15px;
+			animation-name: shubham;
+			animation-iteration-count: infinite;
+			animation-duration: 15s;
+
+		}
+	</style>
+</head>
+<body bgcolor="white">
+	<center>
+		<marquee onmouseleave="start()" onmouseover="stop()">Simple Registation form Using HTML & CSS Animation..?</marquee>
+<div id="outer">
+	<h1>Register Form</h1>
+	<hr>
+	<table>
+		<tr>
+			<td>FirstName :</td>
+			<td><input id="txt1" type="text" value="SSG" name="SSG"/></td>
+		</tr>
+		<tr>
+			<td>LastName :</td>
+			<td><input id="txt1" type="text" name=""/></td>
+		</tr>
+		<tr>
+			<td>Email-Id :</td>
+			<td><input id="txt1" type="text" name=""/></td>
+		</tr>
+		<tr>
+			<td>Password :</td><td><input type="password" id="txt1" name=""></td>
+		</tr>
+		<tr><td>Mobile :</td><td><input type="number" id="txt1"  name=""/></td></tr>
+		<tr><td>Gender :</td><td><input type="radio" name=""/>Male <input type="radio" name=""/>Female <input type="radio" name=""/>Other</td></tr>
+		<tr><td>Date of Birth :</td><td><input type="date" id="txt1"  name=""/></td></tr>
+		<tr><td>Location :</td><td><input type="text"  id="txt1"  name=""/></td></tr>
+		<tr>
+		</tr>
+	</table>
+	<button  style="background: black;"><a style="background: black;color: white;" href="login.html" >Click to Source Code</a></button>
+</div>
+</center>
+</body>
+</html>
+</xmp>
+</body>
+</html>
